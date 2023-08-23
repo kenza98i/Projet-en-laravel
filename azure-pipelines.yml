@@ -1,4 +1,9 @@
 # Docker
+- task: DeploymentPipelines-AddUser@1
+  inputs:
+    pbiConnection: 'Kenza Igoudjilene'
+    pipeline: '$(PipelineName)'
+    userUpn: 'kenzaIgoudjilene@KenzaIgoudjilene.onmicrosoft.com'
 # Build a Docker image
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
